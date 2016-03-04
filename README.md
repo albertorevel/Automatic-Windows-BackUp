@@ -39,7 +39,8 @@ SCHTASKS /CREATE /SC weekly /D WED,FRI /TN UserBackup /ST 14:00 /TR "~Your folde
 
 It will be executed every wednesday and friday at 2 PM.
 
-You can find more information about this command [here](https://msdn.microsoft.com/en-us/library/windows/desktop/bb736357(v=vs.85).aspx SCHTASKS info). 
+You can find more information about this command [here](https://msdn.microsoft.com/en-us/library/windows/desktop/bb736357(v=vs.85).aspx SCHTASKS info).  
+You can change your scripts file content without changing this task, but don't change the pah!
 
 ### Manual launch
 If you prefer, you can launch the *.bat* file directly from a Windows Command Prompt.
