@@ -9,9 +9,9 @@ Please go to **autoBackup.bat** file and change all the paths. A path is typical
 In order to avoid problems, set an absolute path like *"C:/Users/myUser/myFolder1/"* and not relative paths like *"/myFolder1"*
 
 ## Knowing the project
-This project contains two files that lets you to accomplish the task who are lodged in src folder.
+This project contains two files that lets you to accomplish the task who are lodged in the *scripts* folder.
 
-+-- src
++-- scripts
 |	+-- autoBackup.bat
 |	+-- autoBackup.vbs
 +-- README.md
