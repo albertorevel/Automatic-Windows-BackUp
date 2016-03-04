@@ -1,7 +1,7 @@
 @echo off
-:: Here you can specify any disk or usb device
-:: It will compress directly the folder specified without do the copy.
-if exist H:\ goto copy
+:: Here you can specify any disk or usb device (changing C:\ to the device letter)
+:: It will compress directly the folder specified without do the copy if device is not reachable.
+if exist C:\ goto copy
 goto compression
 
 :copy
