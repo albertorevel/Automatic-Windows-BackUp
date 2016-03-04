@@ -21,16 +21,24 @@ This project contains two files that lets you to accomplish the task who are lod
 
 
 ## Launching the script
+### Opening Command Prompt
+First of all, you have to open the Command Prompt:
+
+1. Pressing *Windows + R* and typing *cmd* in the dialog1
+2. OR Clicking **Start button**, clicking **All Programs**, clicking **Accessories**, and then clicking **Command Prompt**.2
+
 
 ### Automatic launch
+You can set automatic tasks with the *SCHTASKS* command from the Command Prompt
+**Remember that you have to change the path!**
+>SCHTASKS /CREATE /SC weekly /D WED,FRI /TN UserBackup /ST 14:00 /TR "~Your folder~.vbs"
 
-SCHTASKS /CREATE /SC weekly /D WED /TN \UserBackup\Wednesday /ST 10:00 /TR "~Your folder~.vbs"
+It will be executed every wednesday and friday at 2 PM.
 
-SCHTASKS /CREATE /SC weekly /D FRI /TN \UserBackup\Friday /ST 14:40 /TR "~Your folder~.vbs"
+You can find more information about this command [here](!https://msdn.microsoft.com/en-us/library/windows/desktop/bb736357(v=vs.85).aspx) 
 
 ### Manual launch
-You can launch the *.bat* file directly from a Windows Command Prompt.
+If you prefer, you can launch the *.bat* file directly from a Windows Command Prompt.
 
-1. Open the Command Prompt: 1
-1. Pressing *Windows + R* and type *cmd* in the dialog1.1
-2. OR Clicking **Start button**, clicking **All Programs**, clicking **Accessories**, and then clicking **Command Prompt**.1.2
+2. Write the absolute path to your file, or drag the file.2
+3. Click enter. 3
