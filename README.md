@@ -18,8 +18,8 @@ This project contains two files that lets you to accomplish the task who are lod
 +-- README.md  
 ```
 
->*autoBackup.bat* is the file who contains the script. You can launch this file directly without automatization.    
->*autoBackup.vbs* is the file who executes the script if you want to automatize it.
+* *autoBackup.bat* is the file who contains the script. You can launch this file directly without automatization.    
+* *autoBackup.vbs* is the file who executes the script if you want to automatize it.
 
 
 ## Launching the script
@@ -44,5 +44,5 @@ You can find more information about this command [here](https://msdn.microsoft.c
 ### Manual launch
 If you prefer, you can launch the *.bat* file directly from a Windows Command Prompt.
 
-2. Write the absolute path to your file, or drag the file.
-3. Click enter.
+1. Write the absolute path to your file, or drag the file.
+2. Click enter.
